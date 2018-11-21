@@ -1,0 +1,5 @@
+package com.victorsantos.cinebomvizinho.models;
+
+public class Client {
+
+}

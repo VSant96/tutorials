@@ -1,0 +1,18 @@
+package com.victorsantos.cinebomvizinho.models;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public class Client {
+	private Integer id;
+	private String name;
+	private String gender;
+	private Date birthDate;
+	private String cpf;
+	private String phone;
+	private String email;
+	
+	private List<Section> sections = new ArrayList<>();
+	private List<Order> orders = new ArrayList<>();
+}
